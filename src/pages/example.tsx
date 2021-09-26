@@ -27,7 +27,6 @@ const Example: React.FC = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <div>
-        {console.log('abdhsd')}
         <h1>Example:{exampleFile}</h1>
         {Component && <Component />}
       </div>
