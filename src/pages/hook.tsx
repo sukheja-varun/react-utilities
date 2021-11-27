@@ -1,7 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Hooks = ['useToggle', 'useDebouncedState', 'useDebounce'];
+const Hooks = [
+  'useToggle',
+  'useDebouncedState',
+  'useDebounce',
+  'useOnClickOutside',
+];
 
 const Hook: React.FC = () => {
   return (
@@ -9,7 +14,9 @@ const Hook: React.FC = () => {
       <h1>Hooks Examples</h1>
       <ul>
         {Hooks.map((hook) => (
-          <li><Link to={`example/${hook}`}>{hook}</Link></li>
+          <li>
+            <Link to={`example/${hook}`}>{hook}</Link>
+          </li>
         ))}
       </ul>
     </div>
