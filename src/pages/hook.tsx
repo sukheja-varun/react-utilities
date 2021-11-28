@@ -6,6 +6,8 @@ const Hooks = [
   'useDebouncedState',
   'useDebounce',
   'useOnClickOutside',
+  'useOnMount',
+  'useOnUpdate',
 ];
 
 const Hook: React.FC = () => {
