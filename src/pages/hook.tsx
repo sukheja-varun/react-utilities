@@ -8,6 +8,8 @@ const Hooks = [
   'useOnClickOutside',
   'useOnMount',
   'useOnUpdate',
+  'useTimeout',
+  'useInterval',
 ];
 
 const Hook: React.FC = () => {
@@ -15,8 +17,8 @@ const Hook: React.FC = () => {
     <div>
       <h1>Hooks Examples</h1>
       <ul>
-        {Hooks.map((hook) => (
-          <li>
+        {Hooks.map((hook, index) => (
+          <li key={index}>
             <Link to={`example/${hook}`}>{hook}</Link>
           </li>
         ))}
