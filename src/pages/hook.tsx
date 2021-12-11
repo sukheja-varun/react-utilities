@@ -10,6 +10,7 @@ const Hooks = [
   'useOnUpdate',
   'useTimeout',
   'useInterval',
+  'useCopyToClipboard',
 ];
 
 const Hook: React.FC = () => {
