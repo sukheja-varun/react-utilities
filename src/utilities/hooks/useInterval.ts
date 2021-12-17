@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 export default function useInterval(
   callback: () => void,
   delay: number | null,
-  startImmediately: boolean
+  startImmediately: boolean = false
 ) {
   const intervalRef = React.useRef<number | null>(null);
   const savedCallback = React.useRef(callback);
@@ -26,7 +26,7 @@ export default function useInterval(
       //   cleanup function
       return clearInterval;
     }
-  }, [delay]);
+  }, [delay, startImmediately]);
 
   /**
    * It clears out the setInterval

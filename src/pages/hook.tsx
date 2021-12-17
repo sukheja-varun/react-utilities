@@ -11,6 +11,7 @@ const Hooks = [
   'useTimeout',
   'useInterval',
   'useCopyToClipboard',
+  'useLocalStorage',
 ];
 
 const Hook: React.FC = () => {
