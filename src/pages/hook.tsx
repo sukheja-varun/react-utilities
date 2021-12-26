@@ -12,6 +12,7 @@ const Hooks = [
   'useInterval',
   'useCopyToClipboard',
   'useLocalStorage',
+  'useEventListener',
 ];
 
 const Hook: React.FC = () => {
