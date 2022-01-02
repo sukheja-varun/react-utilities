@@ -15,7 +15,8 @@ const Hooks = [
   'useEventListener',
   'useFetch',
   'useHover',
-  'useSsr'
+  'useSsr',
+  'useStepper',
 ];
 
 const Hook: React.FC = () => {
