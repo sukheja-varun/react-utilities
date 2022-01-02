@@ -13,6 +13,7 @@ const Hooks = [
   'useCopyToClipboard',
   'useLocalStorage',
   'useEventListener',
+  'useFetch',
 ];
 
 const Hook: React.FC = () => {
