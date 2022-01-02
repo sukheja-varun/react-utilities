@@ -14,7 +14,8 @@ const Hooks = [
   'useLocalStorage',
   'useEventListener',
   'useFetch',
-  'useHover'
+  'useHover',
+  'useSsr'
 ];
 
 const Hook: React.FC = () => {
