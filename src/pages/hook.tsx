@@ -17,6 +17,7 @@ const Hooks = [
   'useHover',
   'useSsr',
   'useStepper',
+  'useScript',
 ];
 
 const Hook: React.FC = () => {
